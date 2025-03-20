@@ -42,3 +42,58 @@
 .top-coins {
   overflow: hidden;  
 }
+
+/* ...existing code... */
+
+/* Media query for devices with a max width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .flex-item {
+    width: 100%; /* Make flex items take full width */
+  }
+
+  .main-img {
+    width: 100%; /* Make main image take full width */
+  }
+
+  .flex-horizontal {
+    flex-direction: column; /* Stack items vertically */
+    gap: 0.5rem; /* Reduce gap between items */
+  }
+
+  .card-image {
+    height: 1.5rem; /* Adjust card image height */
+    padding: 0.25rem 0.5rem 0.25rem; /* Adjust padding */
+  }
+
+  .flex-item-small {
+    min-width: 100%; /* Make small flex items take full width */
+  }
+}
+
+/* Media query for devices with a max width of 480px (mobile phones) */
+@media (max-width: 480px) {
+  .flex-item {
+    width: 100%; /* Make flex items take full width */
+  }
+
+  .main-img {
+    width: 100%; /* Make main image take full width */
+  }
+
+  .flex-horizontal {
+    flex-direction: column; /* Stack items vertically */
+    gap: 0.25rem; /* Reduce gap between items */
+  }
+
+  .card-image {
+    height: 1rem; /* Adjust card image height */
+    padding: 0.25rem; /* Adjust padding */
+  }
+
+  .flex-item-small {
+    min-width: 100%; /* Make small flex items take full width */
+  }
+}
+
+/* ...existing code... */
+

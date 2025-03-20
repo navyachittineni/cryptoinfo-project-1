@@ -22,3 +22,44 @@
 #coin-description {
   text-align: justify;
 }
+
+/* ...existing code... */
+
+/* Media query for devices with a max width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .main-img {
+    width: 100%; /* Make main image take full width */
+    padding: 2rem; /* Adjust padding */
+  }
+
+  .main-contents {
+    width: 100%; /* Make main contents take full width */
+    padding: 2rem; /* Adjust padding */
+  }
+}
+
+/* Media query for devices with a max width of 480px (mobile phones) */
+@media (max-width: 480px) {
+  .flex-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .main-img {
+    width: 100%; /* Make main image take full width */
+    padding: 1rem; /* Adjust padding */
+  }
+
+  .main-contents {
+    width: 100%; /* Make main contents take full width */
+    padding: 1rem; /* Adjust padding */
+  }
+}
+
+/* ...existing code... */
+

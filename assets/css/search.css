@@ -56,3 +56,71 @@
   background-color: #14213d;
   color: #ffffff;
 }
+
+/* ...existing code... */
+
+/* Media query for devices with a max width of 768px (tablets and smaller) */
+@media (max-width: 768px) {
+  .search-input-container {
+    flex-direction: column; /* Stack input container vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .search-input-container input {
+    width: 100%; /* Make input take full width */
+    font-size: 1.25rem; /* Adjust font size */
+  }
+
+  .single-search-result {
+    flex-direction: column; /* Stack search results vertically */
+    margin: 0rem 2rem; /* Adjust margin */
+    padding: 0.5rem 1rem; /* Adjust padding */
+  }
+
+  .single-search-result > img {
+    height: 1.5rem; /* Adjust image height */
+  }
+
+  .single-search-result > h3 {
+    font-size: 1.25rem; /* Adjust font size */
+  }
+
+  .single-search-result > a {
+    margin-top: 0.5rem; /* Add margin to top */
+    margin-left: 0; /* Remove left margin */
+  }
+}
+
+/* Media query for devices with a max width of 480px (mobile phones) */
+@media (max-width: 480px) {
+  .search-input-container {
+    flex-direction: column; /* Stack input container vertically */
+    align-items: center; /* Center align items */
+  }
+
+  .search-input-container input {
+    width: 100%; /* Make input take full width */
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .single-search-result {
+    flex-direction: column; /* Stack search results vertically */
+    margin: 0rem 1rem; /* Adjust margin */
+    padding: 0.5rem; /* Adjust padding */
+  }
+
+  .single-search-result > img {
+    height: 1rem; /* Adjust image height */
+  }
+
+  .single-search-result > h3 {
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .single-search-result > a {
+    margin-top: 0.5rem; /* Add margin to top */
+    margin-left: 0; /* Remove left margin */
+  }
+}
+
+/* ...existing code... */
