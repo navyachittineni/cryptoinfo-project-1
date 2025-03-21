@@ -6,7 +6,7 @@ function convertToJSON(response) {
 document
   .getElementById("nav-search-button")
   .addEventListener("click", function () {
-    window.location.href = "/assets/search.html";
+    window.location.href = 'assets/search.html';
 
   });
 
